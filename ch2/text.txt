@@ -1,0 +1,42 @@
+Chapter 2. Variables and Basic Types
+
+Variable
+Name: ဒီ Box နာမည်က ဘာလဲ? (ဥပမာ - myNumber)
+Type: ဒီ Box က ဘယ်လိုပုံစံလဲ? ဘာပစ္စည်း ထည့်လို့ရမှာလဲ?
+int ,
+
+i = i + j;
+
+Built-in Types (Primitive Types)
+int, float, char, bool
+
+8Bit = 1 byte
+int များ 
+
+short 16bit
+int  16 or 32 bit
+long 32bits
+long long 64 bits
+
+Signed
+Unsigned
+
+unsigned char 0 to 255
+signed char -128 to 127
+
+Floating Point Types (Float vs. Double)
+
+float
+Double
+longdouble
+
+Integer Arithmetic -> int
+Decimal Numbers -> Double
+Unsigned:
+Char
+
+Rate (အတိုးနှုန်း - e.g., 4.5%): Double
+
+Principal (ချေးငွေပမာဏ - e.g., $300,000): double
+
+Payment (လစဉ်ပေးရငွေ): double
