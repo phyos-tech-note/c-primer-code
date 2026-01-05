@@ -40,3 +40,7 @@ Rate (အတိုးနှုန်း - e.g., 4.5%): Double
 Principal (ချေးငွေပမာဏ - e.g., $300,000): double
 
 Payment (လစဉ်ပေးရငွေ): double
+
+
+Type Conversions
+unsigned ထဲကို - ထည့်ရင် Wrap Around
