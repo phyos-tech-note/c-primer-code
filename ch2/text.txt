@@ -44,3 +44,33 @@ Payment (လစဉ်ပေးရငွေ): double
 
 Type Conversions
 unsigned ထဲကို - ထည့်ရင် Wrap Around
+
+Literals
+int i = 42;
+int j = 50;
+int sum = i + j;
+
+octal
+hexadecimal
+
+Floating-Point Literals
+
+3.14
+
+Character vs. String Literals
+'A'
+"A\0"
+
+Escape Sequences
+\n = Newline (အသစ်တစ်ကြောင်းဆင်း)
+
+\t = Horizontal Tab (Tab ခုန်)
+
+\\ = Backslash (Backslash ကိုယ်တိုင်ရိုက်ချင်ရင်)
+
+\" = Double Quote (String ထဲမှာ " ထည့်ချင်ရင်)
+
+\a = Alert/Bell (ကွန်ပျူတာကို အသံမြည်ခိုင်းတာ)
+
+true, false
+nullptr
