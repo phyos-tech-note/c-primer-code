@@ -91,3 +91,32 @@ Initialization နဲ့ Assignment က မတူပါဘူး။
 
 တကယ်လို့ ကျွန်တော်တို့က Variable ကြေညာပြီး တန်ဖိုးမထည့်ခဲ့ရင် (No Initializer) ဘာဖြစ်မလဲ? ဒါကို Default Initialization လို့ခေါ်ပါတယ်။
 
+2.2.2. Variable Declarations and Definitions
+
+extern int i;
+
+int j;
+
+2.2.3. Identifiers
+
+Rules for Identifiers
+1.Start with Letter/Underscore
+myvar, _var
+2.Case-Sensitivity
+int x, int X
+someName, somename
+3.No Special Characters: @, $, %
+
+int apple;
+int Apple; // ဒါက variable အသစ် နောက်တစ်ခုဖြစ်သွားပြီ!
+int APPLE; // ဒါကလည်း နောက်ထပ် အသစ်တစ်ခုပဲ!
+
+Meaningful Names: Variable ရဲ့ နာမည်က သူ့ရဲ့ အဓိပ္ပာယ်ကို ဖော်ဆောင်ရပါမယ်။ int x; ထက် int student_age; က ပိုကောင်းပါတယ်။
+
+Variable Names: များသောအားဖြင့် စာလုံးအသေးနဲ့ပဲ စလေ့ရှိပါတယ်။ (ဥပမာ index)
+
+Class Names: ကျွန်တော်တို့ နောက်ပိုင်း သင်ရမယ့် Class နာမည်တွေကိုတော့ စာလုံးအကြီးနဲ့ စလေ့ရှိပါတယ်။ (ဥပမာ Sales_item)
+
+Multiple Words: စကားလုံး နှစ်လုံးထက်ပိုရင် student_loan (snake_case) ဒါမှမဟုတ် studentLoan (camelCase) ပုံစံမျိုးကို သုံးပြီး စာလုံးတွေကို ခွဲပြရပါမယ်။
+
+2.2.4. Scope of a Name
