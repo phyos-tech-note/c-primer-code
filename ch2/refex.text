@@ -1,0 +1,13 @@
+(a) int ival = 1;
+
+(b) int &rval1 = 1.01;
+
+(c) int &rval2 = ival;
+
+(d) int &rval3;
+
+
+int i, &ri = i; 
+i = 5;          
+ri = 10;        
+std::cout << i << " " << ri << std::endl;

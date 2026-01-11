@@ -120,3 +120,33 @@ Class Names: ကျွန်တော်တို့ နောက်ပိုင
 Multiple Words: စကားလုံး နှစ်လုံးထက်ပိုရင် student_loan (snake_case) ဒါမှမဟုတ် studentLoan (camelCase) ပုံစံမျိုးကို သုံးပြီး စာလုံးတွေကို ခွဲပြရပါမယ်။
 
 2.2.4. Scope of a Name
+
+Global Scope vs Block Scope
+
+Nested Scopes
+
+
+2.3. Compound Types
+References & Pointers
+
+int a = 10;
+
+References = Nickname (အမည်ပြောင်)
+& (Ampersand)
+
+int ival = 1024;
+int &refVal = ival; // refVal ဆိုတာ ival ရဲ့ nickname ဖြစ်သွားပြီ
+
+Pointer
+* (Asterisk)
+
+int ival = 42;
+int *p = &ival; // p ဆိုတဲ့ pointer ထဲမှာ ival ရဲ့ address ကို သိမ်းလိုက်တယ်
+
+2.3.1. References
+
+1.Must be Initialized:
+2.No Re-binding
+3.Must be an Object
+
+int &refVal = 10;
