@@ -160,3 +160,24 @@ int *p = &ival; // p ဆိုတဲ့ pointer ထဲမှာ ival ရဲ့ a
 
 
 void*
+
+
+2.3.3. Understanding Compound Type Declarations
+
+int* p1, p2;
+
+Right-to-Left Rule
+
+int* p;
+int *p;
+
+int* p1, p2;   // p1 သည် Pointer to int, p2 သည် int ရိုးရိုး
+int *p3, *p4;  // p3 ရော p4 ရော Pointer ဖြစ်ချင်ရင် နှစ်ခုလုံး ရှေ့မှာ * ထည့်ရမယ်
+
+int ival = 1024;
+int *pi = &ival;   // pi က ival ကို ညွှန်တယ်
+int **ppi = &pi;   // ppi က pointer pi ကို ထပ်ညွှန်တယ်
+
+*ppi -> pi
+
+**ppi -> ival
