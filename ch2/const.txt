@@ -1,0 +1,9 @@
+const
+
+const int bufSize = 512;    // input buffer size
+
+2.4.1. References to const (const ဆီသို့ Reference လုပ်ခြင်း)
+
+2.4.2. Pointers and const (Pointer များနှင့် const)
+
+2.4.3. Top-Level const

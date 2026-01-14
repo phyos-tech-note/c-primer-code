@@ -181,3 +181,15 @@ int **ppi = &pi;   // ppi က pointer pi ကို ထပ်ညွှန်တ�
 *ppi -> pi
 
 **ppi -> ival
+
+
+
+int* p;
+
+int *&r = p;
+
+int *p; -> p သည် pointer to int.
+
+int **pp; -> pp သည် pointer to pointer to int.
+
+int *&r = p; -> r သည် reference to pointer to int.
