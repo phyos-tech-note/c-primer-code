@@ -1,1 +1,43 @@
 3.1. Namespace using Declarations
+
+std::cin Scope Operator
+
+using namespace::name;
+
+Headers တွေထဲမှာ using Declarations မသုံးသင့်ဘူး
+
+
+3.2. Library string Type
+
+string s1;	Default initialization; s1 က string အလွတ် (empty string) ဖြစ်နေမယ်။
+string s2(s1);	s2 က s1 ရဲ့ copy ဖြစ်မယ်။
+string s2 = s1;	s2(s1) နဲ့ အတူတူပဲ၊ s2 က s1 ရဲ့ copy ပါပဲ။
+string s3("value");	string literal ကို copy ကူးပြီး s3 ကို တည်ဆောက်တာ။ (အဆုံးက null မပါဘူး) Direct Initialization
+string s3 = "value";	s3("value") နဲ့ အတူတူပဲ၊ s3 က literal ရဲ့ copy ဖြစ်မယ်။ Copy Initialization
+string s4(n, 'c');	character 'c' ကို အရေအတွက် n ခုနဲ့ s4 ကို တည်ဆောက်တာ။
+
+string s4(10, 'c');
+
+
+
+3.2.2. Operations on strings (string တွေမှာ လုပ်လို့ရတဲ့ လုပ်ဆောင်ချက်တွေ)
+
+os << s	s ကို output stream ထဲ ရေးမယ်။
+
+is >> s	whitespace တွေ ခွဲခြားထားတဲ့ string ကို is ထဲကနေ s ထဲ ဖတ်မယ်။
+
+getline(is, s)	စာကြောင်းတစ်ကြောင်းလုံးကို is ထဲကနေ s ထဲ ဖတ်မယ်။
+
+s.empty()	string လွတ်နေရင် true ၊ မဟုတ်ရင် false ပြန်ပေးမယ်။
+
+s.size()	character အရေအတွက်ကို ပြန်ပေးမယ်။
+
+s[n]	index n မှာရှိတဲ့ character ရဲ့ reference ကို ပြန်ပေးမယ်။ (0 က စတယ်)
+
+s1 + s2	s1 နဲ့ s2 ကို ပေါင်းပေးမယ်။
+
+s1 = s2	s1 ကို s2 ရဲ့ copy နဲ့ အစားထိုးမယ်။
+
+s1 == s2, s1 != s2	တူမတူ စစ်မယ်။ (Case-sensitive ဖြစ်တယ်)
+
+<, <=, >, >=	Dictionary ပုံစံအတိုင်း Case-sensitive နှိုင်းယှဉ်မယ်။
